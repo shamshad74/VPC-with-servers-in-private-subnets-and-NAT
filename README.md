@@ -1,8 +1,16 @@
 # VPC-with-servers-in-private-subnets-and-NAT
 
-About the Project-
+# About the Project-
 
+This project demonstrates how to create a VPC that you can use for servers in a production enviornment.
+To improve resiliency, you deploy the servers in two Available Zones, by using an Auto Scaling group and an Load Balancer.For additional securitry, you deploy the servers in private subnets. The servers receive 
+request through the load balancer. The servers can connect to the internet by using a NAT gateway. To improve resiliency, you deploy the NAT gateway in both Availability Zones.
 
+# Overview-
+The VPC has public subnets and private subnets in two Availability Zones.
+Each public subnet contains a NAT gateways and a load balancer node.
+The servers run in the private subnets, are launched and terminated by using an Auto Scaling group, and receive traffic from the load balancer.
+The servers can connect to the internet by using the NAT gateway.
 
 ![vpc-example-private-subnets](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/198acfe8-25b3-4079-9188-aa60a6b9439a)
 
