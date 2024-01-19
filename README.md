@@ -57,7 +57,26 @@ By implementing this project, I've gained hands-on experience in setting up a se
 ![Screenshot 2024-01-17 224523](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/7dfd73d7-316e-4709-8529-ac0643803bc5)
 
 
+# Step 2
+# Creating the Auto Scaling Group :
 
+
+![Screenshot 2024-01-19 140313](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/3c9b27f4-d2c2-49f7-ac5f-e305b347f19e)
+
+
+![Screenshot 2024-01-19 140339](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/aaf74615-2311-4a63-8d92-44201d7c0017)
+
+
+![Screenshot 2024-01-19 140359](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/ab4ddfb1-001e-4fc1-91a6-c2360270c828)
+
+
+![Screenshot 2024-01-19 140429](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/3396d6f0-fd46-4396-8d95-d8850e2e932a)
+
+
+![Screenshot 2024-01-19 140451](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/e153c348-ceeb-4350-9690-9360428bcbf1)
+
+
+![Screenshot 2024-01-19 140513](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/e99759c8-d4ea-4454-b83e-8ab53d919ce9)
 
 
 
