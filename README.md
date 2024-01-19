@@ -24,9 +24,9 @@ The servers can connect to the internet by using the NAT gateway.
 By implementing this project, I've gained hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for applications.
 
 
-#STEPS:
+# STEPS:
 
-#step 1
+# step 1
 Create The VPC
 1. Open the Amazon VPC console
 2. On the dashboard, click on "Create VPC."
