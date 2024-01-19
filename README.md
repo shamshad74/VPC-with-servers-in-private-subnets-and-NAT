@@ -23,8 +23,9 @@ The servers can connect to the internet by using the NAT gateway.
 
 By implementing this project, I've gained hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for applications.
 
+![Screenshot 2024-01-17 221659](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/c1bc026e-0a15-4084-880c-afd5ee4ce16c)
 
-t 2024-01-17 221659](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/1ceb9da7-23d7-48a9-8489-b1969fc987de)
+
 
 
 ![Screensho![Screenshot 2024-01-19 130917](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/91a1506e-7d02-4c0f-93c0-1fce18354c58)
