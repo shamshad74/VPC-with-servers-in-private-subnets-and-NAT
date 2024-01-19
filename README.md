@@ -23,6 +23,27 @@ The servers can connect to the internet by using the NAT gateway.
 
 By implementing this project, I've gained hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for applications.
 
+
+#STEPS:
+
+#step 1
+Create The VPC
+1. Open the Amazon VPC console
+2. On the dashboard, click on "Create VPC."
+3. Under "Resources to create," select "VPC and more."
+4. Configure the VPC:
+    a. Provide a name for the VPC in the "Name tag auto-generation" field.
+    b. For the IPv4 CIDR block, leave it as default suggestion.
+5. Configure the subnets:
+    a. Set the "Number of Availability Zones" to 2 for increased resiliency across multiple Availability Zones.
+    b. Specify the "Number of public subnets" as 2.
+    c. Specify the "Number of private subnets" as 2.
+    d. For NAT gateways, choose "1 per AZ" to enhance resiliency.
+    g. For VPC endpoints, you can choose "None" .
+    h. Regarding DNS options, clear the checkbox for "Enable DNS hostnames."
+
+Once you've configured all the settings, click "Create VPC."
+
 ![Screenshot 2024-01-17 221659](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/c1bc026e-0a15-4084-880c-afd5ee4ce16c)
 
 
