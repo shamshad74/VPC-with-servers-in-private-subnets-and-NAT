@@ -28,6 +28,6 @@ By implementing this project, I've gained hands-on experience in setting up a se
 
 
 
-![Screensho![Screenshot 2024-01-19 130917](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/91a1506e-7d02-4c0f-93c0-1fce18354c58)
+![Screenshot 2024-01-19 130917](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/91a1506e-7d02-4c0f-93c0-1fce18354c58)
 
 
