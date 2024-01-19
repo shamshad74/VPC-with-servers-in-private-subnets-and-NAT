@@ -32,17 +32,18 @@ Create The VPC
 2. On the dashboard, click on "Create VPC."
 3. Under "Resources to create," select "VPC and more."
 4. Configure the VPC:
-    a. Provide a name for the VPC in the "Name tag auto-generation" field.
-    b. For the IPv4 CIDR block, leave it as default suggestion.
+    - Provide a name for the VPC in the "Name tag auto-generation" field.
+    - For the IPv4 CIDR block, leave it as default suggestion.
 5. Configure the subnets:
-    a. Set the "Number of Availability Zones" to 2 for increased resiliency across multiple Availability Zones.
-    b. Specify the "Number of public subnets" as 2.
-    c. Specify the "Number of private subnets" as 2.
-    d. For NAT gateways, choose "1 per AZ" to enhance resiliency.
-    g. For VPC endpoints, you can choose "None" .
-    h. Regarding DNS options, clear the checkbox for "Enable DNS hostnames."
+    - Set the "Number of Availability Zones" to 2 for increased resiliency across multiple Availability Zones.
+    - Specify the "Number of public subnets" as 2.
+    - Specify the "Number of private subnets" as 2.
+    - For NAT gateways, choose "1 per AZ" to enhance resiliency.
+    - For VPC endpoints, you can choose "None"
+    - Regarding DNS options, clear the checkbox for "Enable DNS hostnames"
 
-Once you've configured all the settings, click "Create VPC."
+
+Once you've configured all the settings, click "Create VPC"
 
 ![Screenshot 2024-01-17 221659](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/c1bc026e-0a15-4084-880c-afd5ee4ce16c)
 
