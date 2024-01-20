@@ -168,6 +168,67 @@ SSH into Private Instance
          </body>
          </html>
 
+    - After pasting the content, save the file by pressing 'Esc' to exit insert mode and then entering :w to save.
+    - Finally, start a Python HTTP server on port 8000 to deploy your application on the private instance:
+        python3 -m http.server 8000
+
+   Now, your application is deployed on the private instance on port 8000.
+
+# Step 4 :
+Creating the Load Balancer :
+    1. Access the EC2 Terminal.
+    2. Follow the steps outlined below.
+
+
+![Screenshot 2024-01-20 192739](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/519ad9df-2d88-4003-b36a-07eb51f9a2ab)
+
+
+![Screenshot 2024-01-20 192758](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/00f41970-9178-4a44-91c0-6e7a8a1d47a1)
+
+
+![Screenshot 2024-01-20 192827](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/700c4933-9252-4175-8fc0-679851126a97)
+
+
+![Screenshot 2024-01-20 192856](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/7c440245-e5ed-432b-a00f-34af0c4d8809)
+
+
+![Screenshot 2024-01-20 192919](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/ac441e11-c71a-40c9-a11a-0dbee74f3efb)
+
+
+![Screenshot 2024-01-20 192946](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/ed1f15c5-dadc-4be9-b63d-13dcd11cf246)
+
+
+![Screenshot 2024-01-20 193022](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/f1de39a2-55c3-44e7-8d36-3807515175f0)
+
+
+![Screenshot 2024-01-20 193100](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/8af05f93-280d-485b-a11f-b84491199778)
+
+
+![Screenshot 2024-01-20 193123](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/952abebf-bdc8-4cfc-8d70-95b902e35fb0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
