@@ -132,8 +132,17 @@ Creating the Bastion Host :
 
 ![Screenshot 2024-01-20 184721](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/b955daf5-eeaa-4f64-a9c5-a25f3ec56942)
 
-
-
+# Step 4:
+SSH into Private Instance
+1. SSH into the Bastion Host Instance: To SSH into the private instances, we first need to connect to our Bastion host instance. From there, we'll be able to SSH into the private instance.
+2. Ensure the PEM File is Present on the Bastion Host: Additionally, make sure that the PEM file is present on the Bastion host. Without it, you won't be able to SSH into the private instance from the Bastion host.
+3. Open a Terminal: Open a terminal window on your local machine.
+4. Execute the Following Commands:
+   a. If your PEM file is named something like <aws demo.pem>, you must remove spaces in the filename. Please rename the file to something like <aws_demo.pem>.
+   b. Copy the PEM file to the Bastion host using the scp command. Replace <pem file location> with the local and remote file paths, and <bastion host public IP> with the Bastion host's public IP address. Example:
+   scp -i /Users/mathesh/Downloads/aws_demo.pem /Users/mathesh/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
+   c. The above command will copy the PEM file from your computer to the Bastion host. Once the file is successfully copied, move on to the next step. d. SSH into the Bastion host using the following command:
+   ssh -i aws_demo.pem ubuntu@34.229.240.123
 
 
 
