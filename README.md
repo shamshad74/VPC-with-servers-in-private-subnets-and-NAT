@@ -210,7 +210,6 @@ Creating the Load Balancer :
 ![Screenshot 2024-01-20 204616](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/485e5266-0348-428d-a35a-992e06de2c0b)
 
 
-
 ![Screenshot 2024-01-20 204719](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/aabd87c3-2562-4b5d-a7c3-98b3d171b825)
 
 
@@ -226,11 +225,8 @@ Creating the Load Balancer :
 ![Screenshot 2024-01-20 204927](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/0a5128ac-24d6-4c0f-bc5e-1cfa10d55126)
 
 
-![Screenshot 2024-01-20 205002](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/2eef37aa-0644-4184-8f13-f7210dd373cb)
+![Screenshot 2024-01-20 205345](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/ae27b14a-3c03-4647-89da-23cab4a8c5a9)
 
 
-
-
-
-
+Now We Successfully deployed Application securely in Private instance , We can access it through Internet using Load Balancer Securely .
 
