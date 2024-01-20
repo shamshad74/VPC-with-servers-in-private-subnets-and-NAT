@@ -79,6 +79,26 @@ By implementing this project, I've gained hands-on experience in setting up a se
 ![Screenshot 2024-01-19 140513](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/e99759c8-d4ea-4454-b83e-8ab53d919ce9)
 
 
+![Screenshot 2024-01-20 183617](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/66112ff9-f1de-4c26-82da-31a5610eaeb8)
+
+
+![Screenshot 2024-01-20 183652](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/97ff6f2d-3781-42be-9d50-603f41a683cd)
+
+
+![Screenshot 2024-01-20 183728](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/7c5f95de-0cc1-40cb-89cc-97faf730e7a6)
+
+
+![Screenshot 2024-01-20 183747](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/63bfb395-cccd-4e4d-8213-6dbb38919207)
+
+
+![Screenshot 2024-01-20 183815](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/9c51dd37-cc2d-4fe7-98b2-976620d9a347)
+
+
+
+
+
+
+
 
 
 
