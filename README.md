@@ -141,9 +141,31 @@ SSH into Private Instance
    - If your PEM file is named something like <aws demo.pem>, you must remove spaces in the filename. Please rename the file to something like <aws_demo.pem>.
    -  Copy the PEM file to the Bastion host using the scp command. Replace <pem file location> with the local and remote file paths, and <bastion host public IP> with the Bastion host's public IP address.
       Example:                                                                                                         
-      scp -i /Users/mathesh/Downloads/aws_demo.pem /Users/mathesh/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
-   - The above command will copy the PEM file from your computer to the Bastion host. Once the file is successfully copied, move on to the next step. d. SSH into the Bastion host using the following command:                                        
+      scp -i /Users/shamshad/Downloads/aws_demo.pem /Users/shamshad/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
+   - The above command will copy the PEM file from your computer to the Bastion host. Once the file is successfully copied, move on to the next step.
+   -  SSH into the Bastion host using the following command:                                        
       ssh -i aws_demo.pem ubuntu@34.229.240.123
+
+   - After SSHing into the Bastion host, use the ls command to check if the aws_demo.pem file is present. If it's not there, double-check your previous commands.
+   - Now, you can SSH into the private instance using the following command, replacing <private IP> with the private instance's IP address:
+      ssh -i aws_demo.pem ubuntu@<private IP>
+
+   - We will deploy our application on one of the private instances to test the load balancer.
+   - After successfully SSHing into the private instance, create an HTML file using the Vim text editor:
+      vim demo.html
+
+   -This will open the Vim editor. Copy and paste any HTML content you like into the editor.
+   - For example:
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Page Title</title>
+        </head>
+        <body>
+
+        <h1>This is an AWS Demo Production</h1>
+        </body>
+        </html>
 
 
 
