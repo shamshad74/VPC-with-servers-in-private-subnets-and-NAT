@@ -207,31 +207,26 @@ Creating the Load Balancer :
 ![Screenshot 2024-01-20 193123](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/952abebf-bdc8-4cfc-8d70-95b902e35fb0)
 
 
+![Screenshot 2024-01-20 204616](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/485e5266-0348-428d-a35a-992e06de2c0b)
 
 
 
+![Screenshot 2024-01-20 204719](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/aabd87c3-2562-4b5d-a7c3-98b3d171b825)
 
 
+![Screenshot 2024-01-20 204740](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/a58b3e4e-7431-496d-909f-7594e49ebf36)
 
 
+![Screenshot 2024-01-20 204814](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/11242244-dfd1-474e-b783-7599a3f616ef)
 
 
+![Screenshot 2024-01-20 204857](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/93961aac-8bb6-48dd-a6c4-6a6c3a54bda2)
 
 
+![Screenshot 2024-01-20 204927](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/0a5128ac-24d6-4c0f-bc5e-1cfa10d55126)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2024-01-20 205002](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/2eef37aa-0644-4184-8f13-f7210dd373cb)
 
 
 
