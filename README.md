@@ -156,16 +156,16 @@ SSH into Private Instance
 
    -This will open the Vim editor. Copy and paste any HTML content you like into the editor.
    - For example:
-        <!DOCTYPE html>
+    <!DOCTYPE html>
         <html>
         <head>
         <title>Page Title</title>
         </head>
         <body>
 
-        <h1>This is an AWS Demo Production</h1>
-        </body>
-        </html>
+         <h1>This is an AWS Demo Production</h1>
+         </body>
+         </html>
 
 
 
