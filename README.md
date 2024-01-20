@@ -78,6 +78,7 @@ By implementing this project, I've gained hands-on experience in setting up a se
 
 ![Screenshot 2024-01-19 140513](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/e99759c8-d4ea-4454-b83e-8ab53d919ce9)
 
+1. Now you have to choose the Key-pair you created.
 
 ![Screenshot 2024-01-20 183617](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/66112ff9-f1de-4c26-82da-31a5610eaeb8)
 
@@ -90,18 +91,32 @@ By implementing this project, I've gained hands-on experience in setting up a se
 
 ![Screenshot 2024-01-20 183747](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/63bfb395-cccd-4e4d-8213-6dbb38919207)
 
+2. Scroll Down and then Click "Next".
 
 ![Screenshot 2024-01-20 183815](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/9c51dd37-cc2d-4fe7-98b2-976620d9a347)
 
+3. Scroll Down and then Click "Next".
 
 ![Screenshot 2024-01-20 184311](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/c5d61650-2873-404b-aea1-a83be0d05428)
 
+4. Scroll Down and then Click "Next".
 
 ![Screenshot 2024-01-20 184349](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/2509fffb-9733-44e9-8042-2de979efa0b5)
 
+5. Scroll Down and then Click "Skip to Review".
 
 ![Screenshot 2024-01-20 184421](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/db85c4cd-4497-4535-96fb-638fe3607541)
 
+6. Now your are Successfully Created Auto Scaling Group.
+7. Open the AWS Management Console.
+8. Navigate to the EC2 console by clicking on "Services" in the top-left corner, then selecting "EC2" under the "Compute" section.
+9. In the EC2 dashboard, you'll find the "Instances" link on the left-hand navigation pane. Click on "Instances."
+10. Here, you should see the list of EC2 instances associated with your account. Look for the instances created by your Auto Scaling Group.
+Since you mentioned that the Auto Scaling Group launched instances in different AZs, you can check the "Availability Zone" column to verify that these instances are indeed distributed across multiple AZs.
+
+# Step 3 :
+Creating the Bastion Host :
+1. Launch Instance as Specified below .
 
 ![Screenshot 2024-01-20 184453](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/0a5a9c55-7954-4e2d-8904-501d13cd7b25)
 
