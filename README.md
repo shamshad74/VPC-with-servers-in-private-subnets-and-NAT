@@ -115,7 +115,7 @@ By implementing this project, I've gained hands-on experience in setting up a se
 Since you mentioned that the Auto Scaling Group launched instances in different AZs, you can check the "Availability Zone" column to verify that these instances are indeed distributed across multiple AZs.
 
 # Step 3 :
-Creating the Bastion Host :
+# Creating the Bastion Host :
 1. Launch Instance as Specified below .
 
 ![Screenshot 2024-01-20 184453](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/0a5a9c55-7954-4e2d-8904-501d13cd7b25)
@@ -133,7 +133,7 @@ Creating the Bastion Host :
 ![Screenshot 2024-01-20 184721](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/b955daf5-eeaa-4f64-a9c5-a25f3ec56942)
 
 # Step 4:
-SSH into Private Instance
+# SSH into Private Instance
 1. SSH into the Bastion Host Instance: To SSH into the private instances, we first need to connect to our Bastion host instance. From there, we'll be able to SSH into the private instance.
 2. Ensure the PEM File is Present on the Bastion Host: Additionally, make sure that the PEM file is present on the Bastion host. Without it, you won't be able to SSH into the private instance from the Bastion host.
 3. Open a Terminal: Open a terminal window on your local machine.
@@ -174,8 +174,8 @@ SSH into Private Instance
 
    Now, your application is deployed on the private instance on port 8000.
 
-# Step 4 :
-Creating the Load Balancer :
+# Step 5 :
+# Creating the Load Balancer :
     1. Access the EC2 Terminal.
     2. Follow the steps outlined below.
 
