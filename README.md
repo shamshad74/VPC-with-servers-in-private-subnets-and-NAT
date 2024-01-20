@@ -138,11 +138,13 @@ SSH into Private Instance
 2. Ensure the PEM File is Present on the Bastion Host: Additionally, make sure that the PEM file is present on the Bastion host. Without it, you won't be able to SSH into the private instance from the Bastion host.
 3. Open a Terminal: Open a terminal window on your local machine.
 4. Execute the Following Commands:
-   a. If your PEM file is named something like <aws demo.pem>, you must remove spaces in the filename. Please rename the file to something like <aws_demo.pem>.
-   b. Copy the PEM file to the Bastion host using the scp command. Replace <pem file location> with the local and remote file paths, and <bastion host public IP> with the Bastion host's public IP address. Example:
-   scp -i /Users/mathesh/Downloads/aws_demo.pem /Users/mathesh/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
-   c. The above command will copy the PEM file from your computer to the Bastion host. Once the file is successfully copied, move on to the next step. d. SSH into the Bastion host using the following command:
-   ssh -i aws_demo.pem ubuntu@34.229.240.123
+   - If your PEM file is named something like <aws demo.pem>, you must remove spaces in the filename. Please rename the file to something like <aws_demo.pem>.
+   -  Copy the PEM file to the Bastion host using the scp command. Replace <pem file location> with the local and remote file paths, and <bastion host public IP> with the Bastion host's public IP address.
+      Example:
+      scp -i /Users/mathesh/Downloads/aws_demo.pem /Users/mathesh/Downloads/aws_demo.pem ubuntu@34.229.240.123:/home/ubuntu
+   - The above command will copy the PEM file from your computer to the Bastion host. Once the file is successfully copied, move on to the next step. d. SSH into the Bastion host using the following command:
+      ssh -i aws_demo.pem ubuntu@34.229.240.123
+
 
 
 
