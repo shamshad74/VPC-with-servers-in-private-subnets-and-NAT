@@ -1,12 +1,12 @@
 # VPC-with-servers-in-private-subnets-and-NAT
 
-# About the Project-
+## About the Project-
 
 This project demonstrates how to create a VPC that you can use for servers in a production enviornment.
 To improve resiliency, you deploy the servers in two Available Zones, by using an Auto Scaling group and an Load Balancer.For additional securitry, you deploy the servers in private subnets. The servers receive 
 request through the load balancer. The servers can connect to the internet by using a NAT gateway. To improve resiliency, you deploy the NAT gateway in both Availability Zones.
 
-# Overview-
+## Overview-
 The VPC has public subnets and private subnets in two Availability Zones.
 Each public subnet contains a NAT gateways and a load balancer node.
 The servers run in the private subnets, are launched and terminated by using an Auto Scaling group, and receive traffic from the load balancer.
@@ -24,10 +24,10 @@ The servers can connect to the internet by using the NAT gateway.
 By implementing this project, I've gained hands-on experience in setting up a secure VPC with EC2 instances, implementing networking and routing, configuring security groups and IAM roles, and ensuring proper access control. This project will provide a practical understanding of how these AWS services work together to create a secure and scalable infrastructure for applications.
 
 
-# STEPS:
+## STEPS:
 
-# step 1
-# Create The VPC
+## step 1
+## Create The VPC
 1. Open the Amazon VPC console
 2. On the dashboard, click on "Create VPC"
 3. Under "Resources to create," select "VPC and more"
@@ -57,8 +57,8 @@ By implementing this project, I've gained hands-on experience in setting up a se
 ![Screenshot 2024-01-17 224523](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/7dfd73d7-316e-4709-8529-ac0643803bc5)
 
 
-# Step 2
-# Creating the Auto Scaling Group :
+## Step 2
+## Creating the Auto Scaling Group :
 
 
 ![Screenshot 2024-01-19 140313](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/3c9b27f4-d2c2-49f7-ac5f-e305b347f19e)
@@ -114,8 +114,8 @@ By implementing this project, I've gained hands-on experience in setting up a se
 10. Here, you should see the list of EC2 instances associated with your account. Look for the instances created by your Auto Scaling Group.
 Since you mentioned that the Auto Scaling Group launched instances in different AZs, you can check the "Availability Zone" column to verify that these instances are indeed distributed across multiple AZs.
 
-# Step 3 :
-# Creating the Bastion Host :
+## Step 3 :
+## Creating the Bastion Host :
 1. Launch Instance as Specified below .
 
 ![Screenshot 2024-01-20 184453](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/0a5a9c55-7954-4e2d-8904-501d13cd7b25)
@@ -132,8 +132,8 @@ Since you mentioned that the Auto Scaling Group launched instances in different 
 
 ![Screenshot 2024-01-20 184721](https://github.com/shamshad74/VPC-with-servers-in-private-subnets-and-NAT/assets/117065471/b955daf5-eeaa-4f64-a9c5-a25f3ec56942)
 
-# Step 4:
-# SSH into Private Instance
+## Step 4:
+## SSH into Private Instance
 1. SSH into the Bastion Host Instance: To SSH into the private instances, we first need to connect to our Bastion host instance. From there, we'll be able to SSH into the private instance.
 2. Ensure the PEM File is Present on the Bastion Host: Additionally, make sure that the PEM file is present on the Bastion host. Without it, you won't be able to SSH into the private instance from the Bastion host.
 3. Open a Terminal: Open a terminal window on your local machine.
@@ -174,8 +174,8 @@ Since you mentioned that the Auto Scaling Group launched instances in different 
 
    Now, your application is deployed on the private instance on port 8000.
 
-# Step 5 :
-# Creating the Load Balancer :
+## Step 5 :
+## Creating the Load Balancer :
     1. Access the EC2 Terminal.
     2. Follow the steps outlined below.
 
